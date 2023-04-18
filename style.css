@@ -1,0 +1,142 @@
+* {
+      overflow: hidden;
+}
+
+
+
+
+.Welcome-Screen {
+      display: flex;
+      flex-direction: column;
+      /* border: 1px solid black; */
+
+}
+
+.imgg {
+      width: 7rem;
+      height: 7rem;
+      margin-bottom: -1rem;
+}
+
+h1 {
+      margin-bottom: 0;
+      font-weight: 500;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 1rem;
+}
+
+.span1 {
+      color: grey;
+      font-weight: 500;
+      margin-top: -1rem;
+      font-size: 0.9rem;
+}
+
+/* .textbox {
+      width: 25rem;
+} */
+
+
+input {
+      width: 15rem;
+      height: 2rem;
+      border-radius: 0px solid grey;
+      border-radius: 0.2rem;
+}
+
+.forgot {
+      /* display: flex; */
+      text-align: end;
+      /* border: 2px solid red; */
+      color: grey;
+      font-size: 0.7rem;
+
+}
+
+.info {
+      /* border: 2px solid red; */
+      display: flex;
+      align-items: center;
+      color: grey;
+      font-size: 0.8rem;
+      margin-bottom: 0;
+}
+
+.info input {
+      width: 1rem;
+      height: 1rem;
+      /* border: 1px solid black; */
+}
+
+
+.Welcome-Screen>* {
+      margin: 0.7rem;
+}
+
+.Main-Screen {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* border: 1px solid black; */
+      width: 100%;
+      /* margin-top: auto; */
+      /* margin-bottom: auto; */
+      height: 100vh;
+}
+
+.signin {
+      margin-top: 0;
+}
+
+.signin h4 {
+      text-align: center;
+      width: rem;
+      height: 2rem;
+      width: 15rem;
+      border-radius: 0.2rem;
+      background-color: #C83B53;
+      color: white;
+}
+
+.signup {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* justify-content: space-around; */
+      font-size: 0.8rem;
+      margin-top: -1.3rem;
+}
+
+
+.hovertext {
+      position: relative;
+      /* border-bottom: 1px dotted black; */
+}
+
+.hovertext:before {
+      content: attr(data-hover);
+      visibility: hidden;
+      opacity: 0;
+      width: 140px;
+      background-color: rgb(184, 237, 101);
+      color: black;
+      text-align: center;
+      border-radius: 5px;
+      padding: 5px 0;
+      transition: opacity 1s ease-in-out;
+
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      top: 110%;
+}
+
+.hovertext:hover:before {
+      opacity: 1;
+      visibility: visible;
+}
+
+a {
+      text-decoration: none;
+      color: rgb(248, 98, 98);
+}
